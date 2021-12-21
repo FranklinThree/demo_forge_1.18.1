@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "AAA",
+    "WWW"
+  ],
+  "key":{
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "A": {
+      "item": "demo:green_apple"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "demo:green_apple_cake",
+    "count": 1
+  },
+  "group": "Green_apple"
+}

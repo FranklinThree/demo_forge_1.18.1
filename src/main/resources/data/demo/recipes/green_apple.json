@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LAL",
+    "LLL"
+  ],
+  "key": {
+    "A":{
+      "item": "minecraft:apple"
+    },
+    "L":{
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result": {
+    "item": "demo:green_apple",
+    "count": 1
+  },
+  "group": "Green_apple"
+}
+
