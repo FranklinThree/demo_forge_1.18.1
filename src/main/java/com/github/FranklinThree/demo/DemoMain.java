@@ -1,8 +1,9 @@
 package com.github.FranklinThree.demo;
 
-import com.github.FranklinThree.demo.item.Green_apple;
-import com.github.FranklinThree.demo.item.Green_apple_cake;
-import net.minecraft.world.item.Item;
+
+import com.github.FranklinThree.demo.item.Green_energy_dust;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,13 +16,12 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.stream.Collectors;
+
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("demo")
@@ -30,7 +30,12 @@ public class DemoMain
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-
+    public static final CreativeModeTab TAB_GREEN = (new CreativeModeTab(15,"GREEN"){
+        @Override
+        public @NotNull ItemStack makeIcon() {
+            return new ItemStack(Green_energy_dust::new);
+        }
+    }).setRecipeFolderName("Green");
 
 
 
@@ -42,11 +47,14 @@ public class DemoMain
         // Register the processIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
 
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
 
         ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+
+        // Register ourselves for server and other game events we are interested in
+        MinecraftForge.EVENT_BUS.register(this);
+
 
     }
 

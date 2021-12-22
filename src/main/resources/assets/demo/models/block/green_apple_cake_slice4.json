@@ -1,0 +1,23 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "particle": "demo:block/green_apple_cake_side",
+        "bottom": "demo:block/green_apple_cake_bottom",
+        "top": "demo:block/green_apple_cake_top",
+        "side": "demo:block/green_apple_cake_side",
+        "inside": "demo:block/green_apple_cake_inner"
+    },
+    "elements": [
+        {   "from": [ 9, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

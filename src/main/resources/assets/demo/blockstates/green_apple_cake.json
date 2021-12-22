@@ -1,5 +1,25 @@
 {
   "variants": {
-    "": { "model": "demo:block/green_apple_cake" }
+    "bites=0": {
+      "model": "demo:block/green_apple_cake"
+    },
+    "bites=1": {
+      "model": "demo:block/green_apple_cake_slice1"
+    },
+    "bites=2": {
+      "model": "demo:block/green_apple_cake_slice2"
+    },
+    "bites=3": {
+      "model": "demo:block/green_apple_cake_slice3"
+    },
+    "bites=4": {
+      "model": "demo:block/green_apple_cake_slice4"
+    },
+    "bites=5": {
+      "model": "demo:block/green_apple_cake_slice5"
+    },
+    "bites=6": {
+      "model": "demo:block/green_apple_cake_slice6"
+    }
   }
 }

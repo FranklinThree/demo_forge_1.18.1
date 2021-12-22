@@ -4,11 +4,12 @@ package com.github.FranklinThree.demo.item;
 import net.minecraft.world.effect.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.food.Foods;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.registries.ObjectHolder;
 
-import static com.github.FranklinThree.demo.tab.DemoTab.TAB_GREEN;
+
+import static com.github.FranklinThree.demo.DemoMain.TAB_GREEN;
+@ObjectHolder("demo")
 
 public class Green_apple extends Item {
     public Green_apple(){
@@ -17,7 +18,7 @@ public class Green_apple extends Item {
                 .stacksTo(1)
                 .food(((new FoodProperties.Builder())
                         .nutrition(6)
-                        .saturationMod(4.0F))
+                        .saturationMod(0.8F))
                         .effect(()->{
                             return new MobEffectInstance(MobEffects.MOVEMENT_SPEED,16*20,0);
                         },1)

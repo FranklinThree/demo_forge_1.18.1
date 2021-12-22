@@ -1,5 +1,6 @@
 {
-  "item.demo.green_apple": "Green Apple",
-  "item.demo.green_apple_cake": "Green Apple Cake"
-
+  "itemGroup.demo.GREEN": "green legacy",
+  "item.demo.green_apple": "green apple",
+  "block.demo.green_apple_cake": "green apple cake",
+  "item.demo.green_energy_dust": "green energy dust"
 }

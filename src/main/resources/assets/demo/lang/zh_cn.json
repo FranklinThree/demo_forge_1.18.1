@@ -1,4 +1,6 @@
 {
+  "itemGroup.demo.GREEN": "绿色系",
   "item.demo.green_apple": "青苹果",
-  "item.demo.green_apple_cake": "青苹果蛋糕"
+  "block.demo.green_apple_cake": "青苹果蛋糕",
+  "item.demo.green_energy_dust": "绿色能量粉尘"
 }
