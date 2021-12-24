@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.ObjectHolder;
 
 
-import static com.github.FranklinThree.demo.DemoMain.TAB_GREEN;
+import static com.github.FranklinThree.demo.tab.DemoTabs.TAB_GREEN;
 @ObjectHolder("demo")
 
 public class Green_apple extends Item {

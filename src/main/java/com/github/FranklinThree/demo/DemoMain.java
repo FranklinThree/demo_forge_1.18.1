@@ -31,12 +31,7 @@ public class DemoMain
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public static final CreativeModeTab TAB_GREEN = (new CreativeModeTab(15,"GREEN"){
-        @Override
-        public @NotNull ItemStack makeIcon() {
-            return new ItemStack(new Green_energy_ore());
-        }
-    }).setRecipeFolderName("Green");
+
 
 
 

@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import org.jetbrains.annotations.NotNull;
 
-import static com.github.FranklinThree.demo.DemoMain.TAB_GREEN;
+import static com.github.FranklinThree.demo.tab.DemoTabs.TAB_GREEN;
 
 public class Green_apple_cake extends Item {
     public Green_apple_cake(){

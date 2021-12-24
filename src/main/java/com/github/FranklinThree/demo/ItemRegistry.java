@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.github.FranklinThree.demo.DemoMain.TAB_GREEN;
+import static com.github.FranklinThree.demo.tab.DemoTabs.TAB_GREEN;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "demo");

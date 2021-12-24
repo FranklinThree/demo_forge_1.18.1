@@ -4,7 +4,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.ObjectHolder;
 
-import static com.github.FranklinThree.demo.DemoMain.TAB_GREEN;
+import static com.github.FranklinThree.demo.tab.DemoTabs.TAB_GREEN;
 
 public class Green_energy_dust extends Item {
     public Green_energy_dust() {
