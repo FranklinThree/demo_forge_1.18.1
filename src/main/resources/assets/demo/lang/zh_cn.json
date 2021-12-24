@@ -2,5 +2,8 @@
   "itemGroup.demo.GREEN": "绿色系",
   "item.demo.green_apple": "青苹果",
   "block.demo.green_apple_cake": "青苹果蛋糕",
-  "item.demo.green_energy_dust": "绿色能量粉尘"
+  "item.demo.green_energy_dust": "绿色能量粉尘",
+  "item.demo.green_energy_ore": "绿色能量矿石",
+  "block.demo.green_energy_ore": "绿色能量矿石",
+  "itemGroup.GREEN": "绿色系"
 }

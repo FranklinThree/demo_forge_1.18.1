@@ -1,6 +1,7 @@
 package com.github.FranklinThree.demo;
 
 
+import com.github.FranklinThree.demo.block.Green_energy_ore;
 import com.github.FranklinThree.demo.item.Green_energy_dust;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -33,7 +34,7 @@ public class DemoMain
     public static final CreativeModeTab TAB_GREEN = (new CreativeModeTab(15,"GREEN"){
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(Green_energy_dust::new);
+            return new ItemStack(new Green_energy_ore());
         }
     }).setRecipeFolderName("Green");
 

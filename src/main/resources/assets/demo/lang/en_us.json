@@ -2,5 +2,8 @@
   "itemGroup.demo.GREEN": "green legacy",
   "item.demo.green_apple": "green apple",
   "block.demo.green_apple_cake": "green apple cake",
-  "item.demo.green_energy_dust": "green energy dust"
+  "item.demo.green_energy_dust": "green energy dust",
+  "item.demo.green_energy_ore": "green energy ore",
+  "block.demo.green_energy_ore": "green energy ore",
+  "itemGroup.GREEN": "green gen"
 }

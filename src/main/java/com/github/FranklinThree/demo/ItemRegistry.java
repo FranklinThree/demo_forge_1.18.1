@@ -17,4 +17,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> GREEN_APPLE_CAKE = ITEMS.register("green_apple_cake", ()->{
         return new BlockItem(BlockRegistry.GREEN_APPLE_CAKE.get(),new Item.Properties().tab(TAB_GREEN));
     });
+    public static final RegistryObject<Item> GREEN_ENERGY_ORE = ITEMS.register("green_energy_ore", ()->{
+        return new BlockItem(BlockRegistry.GREEN_ENERGY_ORE.get(),new Item.Properties().tab(TAB_GREEN));
+    });
 }
