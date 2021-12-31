@@ -13,12 +13,7 @@ import static com.github.FranklinThree.demo.tab.DemoTabs.TAB_GREEN;
 public class Green_apple_cake extends Item {
     public Green_apple_cake(){
         super((new Properties())
-                .tab(new CreativeModeTab("TEST") {
-                    @Override
-                    public @NotNull ItemStack makeIcon() {
-                        return new ItemStack(Items.SEA_LANTERN);
-                    }
-                })
+                .tab(TAB_GREEN)
 
         );
     }
